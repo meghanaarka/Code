@@ -1,0 +1,64 @@
+int RamyaRed=2;
+int RamyaYellow=3;
+int RamyaGreen=4;
+int MeghanaRed=5;
+int MeghanaYellow=6;
+int MeghanaGreen=7;
+int TharunRed=8;
+int TharunYellow=9;
+int TharunGreen=10;
+int MilkyRed=11;
+int MilkyYellow=12;
+int MilkyGreen=13;
+void setup(){
+pinMode(2, OUTPUT);
+pinMode(3, OUTPUT);
+pinMode(4, OUTPUT);
+pinMode(5, OUTPUT);
+pinMode(6, OUTPUT);
+pinMode(7, OUTPUT);
+pinMode(8, OUTPUT);
+pinMode(9, OUTPUT);
+pinMode(10, OUTPUT);
+pinMode(11, OUTPUT);
+pinMode(12, OUTPUT);
+pinMode(13, OUTPUT);
+}
+void loop(){
+digitalWrite(4, HIGH);//Ramya//
+delay(5000);
+digitalWrite(4, LOW);
+digitalWrite(3, HIGH);
+delay(2000);
+digitalWrite(3, LOW);
+digitalWrite(2, HIGH);
+delay (2000);
+digitalWrite(2,LOW);
+digitalWrite(7, HIGH);//Meghana//
+delay(5000);
+digitalWrite(7, LOW);
+digitalWrite(6, HIGH);
+delay(2000);
+digitalWrite(6, LOW);
+digitalWrite(5, HIGH);
+delay(2000);
+digitalWrite(5,LOW);
+digitalWrite(10, HIGH);//Tharun//
+delay(5000);
+digitalWrite(10, LOW);
+digitalWrite(9, HIGH);
+delay(2000);
+digitalWrite(9, LOW);
+digitalWrite(8, HIGH);
+delay(2000);
+digitalWrite(8,LOW);
+digitalWrite(13, HIGH);//Milky//
+delay(5000);
+digitalWrite(13, LOW);
+digitalWrite(12, HIGH);
+delay(2000);
+digital Write(12, LOW) 
+digitalWrite(11, HIGH);
+delay(2000);
+digitalWrite(11,LOW);
+}
